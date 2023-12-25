@@ -1,0 +1,13 @@
+prefix=/Users/venumaddireddy/development/gemeni/venv
+exec_prefix=/Users/venumaddireddy/development/gemeni/venv
+libdir=/Users/venumaddireddy/development/gemeni/venv/lib
+sharedlibdir=/Users/venumaddireddy/development/gemeni/venv/lib
+includedir=/Users/venumaddireddy/development/gemeni/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
